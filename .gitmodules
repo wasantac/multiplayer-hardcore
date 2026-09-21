@@ -1,0 +1,3 @@
+[submodule "worldreset-plugin/hardcore-datapack-repo"]
+	path = worldreset-plugin/hardcore-datapack-repo
+	url = git@github.com:wasantac/hardcore-datapack.git

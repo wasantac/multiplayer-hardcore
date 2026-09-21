@@ -1,0 +1,43 @@
+# ---- Java / server runtime ----
+*.jar
+*.class
+
+# Paper/Spigot generated runtime dirs (regenerated on first boot)
+bundler/
+libraries/
+versions/
+
+# Worlds and backups
+world/
+world_nether/
+world_the_end/
+world*-old*/
+world*-backup*/
+arena_*/
+
+# Server logs & crash data
+logs/
+crash-reports/
+*.log
+*.log.*
+*.lck
+
+# Server runtime state (regenerated on first boot)
+usercache.json
+banned-ips.json
+banned-players.json
+whitelist.json
+ops.json
+eula.txt
+
+# Gradle build outputs
+build/
+.gradle/
+
+# Compiled datapack artifact (built from hardcore-datapack-repo submodule)
+worldreset-plugin/hardcore-pack.zip
+
+# Editor / tooling
+.claude/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,30 @@
+# Mundo jugable que se borra y regenera cada vez que alguien muere.
+arena-world: arena
+
+# Mundo "limbo" donde esperan los jugadores mientras se regenera el mundo jugable.
+# Por defecto es el mundo principal del server.properties, que nunca se toca ni se borra.
+hub-world: world
+
+# Segundos de espera antes de reiniciar el mundo (para que la gente vea el aviso).
+reset-delay-seconds: 5
+
+# Semilla fija para el mundo jugable. 0 = semilla aleatoria en cada reinicio.
+seed: 0
+
+# Si se debe anunciar por chat cuando alguien muere y cuando el mundo se reinicia.
+broadcast: true
+
+# URL pública (raw.githubusercontent.com) del .zip con el resource pack del sonido custom de muerte.
+# Vacío = desactiva el resource pack y el sonido custom (solo queda el título/chat/broadcast).
+resource-pack-url: https://raw.githubusercontent.com/wasantac/hardcore-datapack/main/hardcore-pack.zip
+
+# SHA1 del .zip de arriba. Se recalcula cada vez que se regenera el pack; debe coincidir exacto
+# o el cliente rechaza el resource pack.
+resource-pack-sha1: 110edc8ebb2d546f203a5737c250e6a75bb31a1b
+
+# Sonido custom (namespace:evento, definido en assets/<namespace>/sounds.json del pack) que se
+# reproduce a TODOS los jugadores conectados cuando alguien muere.
+death-sound: hardcorereset:player_death
+death-sound-volume: 1.0
+death-sound-pitch: 1.0
+current-arena: arena_1789933944961

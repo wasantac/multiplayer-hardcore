@@ -1,0 +1,13 @@
+name: HardcoreReset
+version: 1.0.0
+main: dev.wsantacruz.hardcorereset.HardcoreReset
+author: wsantacruz
+description: Reinicia el mundo de juego cuando un jugador muere, en vez de expulsarlo (hardcore sin bans ni spectator permanente).
+commands:
+  worldreset:
+    description: Fuerza un reinicio manual del mundo de juego.
+    usage: /worldreset
+    permission: hardcorereset.admin
+permissions:
+  hardcorereset.admin:
+    default: op

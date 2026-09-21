@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  playit:
+    image: ghcr.io/playit-cloud/playit-agent:1.0
+    container_name: playit
+    restart: unless-stopped
+    environment:
+      - SECRET_KEY=TU_SECRET_KEY_DE_PLAYIT_AQUI
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
