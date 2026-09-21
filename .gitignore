@@ -37,7 +37,20 @@ build/
 # Compiled datapack artifact (built from hardcore-datapack-repo submodule)
 worldreset-plugin/hardcore-pack.zip
 
+# Plugin runtime data - only HardcoreReset (mantenido a mano) se versiona
+plugins/*
+!plugins/HardcoreReset.jar
+!plugins/HardcoreReset/
+!plugins/HardcoreReset/**
+
+# Docker compose real (con SECRET_KEY de playit.gg)
+docker-compose.yml
+
 # Editor / tooling
 .claude/
+.idea/
+.vscode/
+*.iml
 .DS_Store
 Thumbs.db
+desktop.ini
