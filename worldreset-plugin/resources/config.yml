@@ -25,7 +25,7 @@ resource-pack-sha1: "110edc8ebb2d546f203a5737c250e6a75bb31a1b"
 # Sonido custom (namespace:evento, definido en assets/<namespace>/sounds.json del pack) que se
 # reproduce a TODOS los jugadores conectados cuando alguien muere.
 death-sound: "hardcorereset:player_death"
-death-sound-volume: 1.0
+death-sound-volume: 0.5
 death-sound-pitch: 1.0
 
 # Gestionado automáticamente por el plugin: nombre real del mundo jugable actual
